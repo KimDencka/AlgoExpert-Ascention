@@ -2,7 +2,7 @@ package dencka.kim.easy.collection;
 
 import java.util.*;
 
-public class ValidateSubsequence {
+class ValidateSubsequence {
     public static void main(String[] args) {
         System.out.println(isValidSubsequence(List.of(5, 1, 22, 25, 6, -1, 8, 10), List.of(22, 25, 6)));
     }

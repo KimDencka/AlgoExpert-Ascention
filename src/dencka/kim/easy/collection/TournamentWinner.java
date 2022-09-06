@@ -2,7 +2,7 @@ package dencka.kim.easy.collection;
 
 import java.util.*;
 
-public class TournamentWinner {
+class TournamentWinner {
     public static void main(String[] args) {
         List<List<String>> competitions =
                 List.of(List.of("HTML", "C#"),

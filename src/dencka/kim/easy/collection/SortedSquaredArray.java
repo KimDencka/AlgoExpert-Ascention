@@ -2,7 +2,7 @@ package dencka.kim.easy.collection;
 
 import java.util.Arrays;
 
-public class SortedSquaredArray {
+class SortedSquaredArray {
     public static void main(String[] args) {
         int[] nums = {-5, -4, -3, -2, -1};
         System.out.println(Arrays.toString(sortedSquaredArray(nums)));

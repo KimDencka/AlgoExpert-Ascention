@@ -1,6 +1,6 @@
 package dencka.kim.easy.tree;
 
-public class NodeDepths {
+class NodeDepths {
     public static void main(String[] args) {
         BinaryTree bt = new BinaryTree(1);
         bt.left = new BinaryTree(2);

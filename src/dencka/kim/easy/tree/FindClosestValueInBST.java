@@ -1,6 +1,6 @@
 package dencka.kim.easy.tree;
 
-public class FindClosestValueInBST {
+class FindClosestValueInBST {
     public static void main(String[] args) {
         BST bst = new BST(10);
         bst.left = new BST(5);

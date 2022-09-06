@@ -2,7 +2,7 @@ package dencka.kim.easy.tree;
 
 import java.util.*;
 
-public class BranchSums {
+class BranchSums {
     public static void main(String[] args) {
         BinaryTree bt = new BinaryTree(1);
         bt.left = new BinaryTree(2);

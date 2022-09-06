@@ -2,7 +2,7 @@ package dencka.kim.easy.collection;
 
 import java.util.Arrays;
 
-public class NonConstructibleChange {
+class NonConstructibleChange {
     public static void main(String[] args) {
         int[] nums = {5, 7, 1, 1, 2, 3, 22};
         System.out.println(nonConstructibleChange(nums));
