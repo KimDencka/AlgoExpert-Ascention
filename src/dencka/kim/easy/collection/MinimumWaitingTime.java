@@ -30,4 +30,9 @@ public class MinimumWaitingTime {
 //        }
 //        return totalWaitingTime;
 //    }
+    // 1 * 4 = 4
+    // 2 * 3 = 6
+    // 2 * 2 = 4
+    // 3 * 1 = 3
+    // 6 * 0 = 0
 }
