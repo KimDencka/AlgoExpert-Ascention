@@ -2,7 +2,7 @@ package dencka.kim.easy.other;
 
 public class NthFibonacci {
     public static void main(String[] args) {
-
+        System.out.println(getNthFib(6));
     }
 
     public static int getNthFib(int n) {
