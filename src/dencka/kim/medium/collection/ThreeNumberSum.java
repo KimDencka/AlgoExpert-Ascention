@@ -1,4 +1,4 @@
-package dencka.kim.easy.collection;
+package dencka.kim.medium.collection;
 
 
 import java.util.*;
