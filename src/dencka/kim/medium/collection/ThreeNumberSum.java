@@ -3,7 +3,7 @@ package dencka.kim.medium.collection;
 
 import java.util.*;
 
-public class ThreeNumberSum {
+class ThreeNumberSum {
     public static void main(String[] args) {
         int[] nums = {12, 3, 1, 2, -6, 5, -8, 6};
         System.out.println(threeNumberSum(nums, 0));

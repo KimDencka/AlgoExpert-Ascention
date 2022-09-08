@@ -1,6 +1,6 @@
 package dencka.kim.easy.other;
 
-public class RunLengthEncoding {
+class RunLengthEncoding {
     public static void main(String[] args) {
         var input = "AAAAAAAAAAAAABBCCCCDD";
         System.out.println(runLengthEncoding(input));

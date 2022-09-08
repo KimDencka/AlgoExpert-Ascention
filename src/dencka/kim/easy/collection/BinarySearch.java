@@ -1,6 +1,6 @@
 package dencka.kim.easy.collection;
 
-public class BinarySearch {
+class BinarySearch {
     public static void main(String[] args) {
         int[] nums = {0, 1, 21, 33, 45, 45, 61, 71, 72, 73};
 

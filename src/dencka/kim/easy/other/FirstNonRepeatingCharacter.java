@@ -2,7 +2,7 @@ package dencka.kim.easy.other;
 
 import java.util.HashMap;
 
-public class FirstNonRepeatingCharacter {
+class FirstNonRepeatingCharacter {
     public static void main(String[] args) {
         System.out.println(firstNonRepeatingCharacter("abcdcaf"));
     }

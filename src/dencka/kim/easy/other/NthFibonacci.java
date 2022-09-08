@@ -1,6 +1,6 @@
 package dencka.kim.easy.other;
 
-public class NthFibonacci {
+class NthFibonacci {
     public static void main(String[] args) {
         System.out.println(getNthFib(6));
     }

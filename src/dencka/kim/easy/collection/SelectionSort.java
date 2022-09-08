@@ -2,7 +2,7 @@ package dencka.kim.easy.collection;
 
 import java.util.Arrays;
 
-public class SelectionSort {
+class SelectionSort {
     public static void main(String[] args) {
         int[] input = {8, 5, 2, 9, 5, 6, 3};
         System.out.println(Arrays.toString(selectionSort(input)));

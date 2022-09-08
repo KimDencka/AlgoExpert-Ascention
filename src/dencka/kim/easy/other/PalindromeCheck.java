@@ -1,6 +1,6 @@
 package dencka.kim.easy.other;
 
-public class PalindromeCheck {
+class PalindromeCheck {
     public static void main(String[] args) {
         System.out.println(isPalindrome("abcdcba"));
         System.out.println(isPalindrome("abcdeffedcb0"));

@@ -2,7 +2,7 @@ package dencka.kim.easy.collection;
 
 import java.util.Arrays;
 
-public class TandemBicycle {
+class TandemBicycle {
     public static void main(String[] args) {
         int[] red = {5, 3, 2, 5, 9};
         int[] blue = {3, 2, 6, 1, 7};

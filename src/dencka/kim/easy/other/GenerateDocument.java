@@ -2,7 +2,7 @@ package dencka.kim.easy.other;
 
 import java.util.HashMap;
 
-public class GenerateDocument {
+class GenerateDocument {
     public static void main(String[] args) {
         System.out.println(generateDocument("abcabc", "aabbcc"));
     }

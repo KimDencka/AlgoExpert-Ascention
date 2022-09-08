@@ -1,6 +1,6 @@
 package dencka.kim.easy.other;
 
-public class CaesarCipherEncryptor {
+class CaesarCipherEncryptor {
     public static void main(String[] args) {
         System.out.println(caesarCypherEncryptor("xyz", 2));
     }

@@ -1,6 +1,6 @@
 package dencka.kim.easy.collection;
 
-public class RemoveDuplicatesFromLinkedList {
+class RemoveDuplicatesFromLinkedList {
     public static void main(String[] args) {
         LinkedList list = new LinkedList(1);
         list.next = new LinkedList(1);

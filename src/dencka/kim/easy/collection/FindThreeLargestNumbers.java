@@ -2,7 +2,7 @@ package dencka.kim.easy.collection;
 
 import java.util.Arrays;
 
-public class FindThreeLargestNumbers {
+class FindThreeLargestNumbers {
     public static void main(String[] args) {
         int[] nums = {-1, -2, -3, -7, -17, -27, -18, -541, -8, -7, 7};
 

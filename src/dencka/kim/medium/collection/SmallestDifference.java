@@ -2,7 +2,7 @@ package dencka.kim.medium.collection;
 
 import java.util.Arrays;
 
-public class SmallestDifference {
+class SmallestDifference {
     public static void main(String[] args) {
         int[] nums1 = {-1, 5, 10, 20, 28, 3};
         int[] nums2 = {26, 134, 135, 15, 17};

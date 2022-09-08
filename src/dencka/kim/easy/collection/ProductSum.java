@@ -2,7 +2,7 @@ package dencka.kim.easy.collection;
 
 import java.util.*;
 
-public class ProductSum {
+class ProductSum {
     public static void main(String[] args) {
         List<Object> test = new ArrayList<>(
                 Arrays.asList(
