@@ -10,7 +10,6 @@ class LongestPeak {
         int max = 0;
         boolean isPeak;
         for (int i = 1; i < array.length - 1; i++) {
-            System.out.println(i);
             isPeak = array[i - 1] < array[i] && array[i + 1] < array[i];
             if (isPeak) {
                 int left = i - 2;
