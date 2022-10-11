@@ -41,16 +41,16 @@ class BSTTraversal {
 class Runner {
     public static void main(String[] args) {
         BSTTraversal.BST tree = new BSTTraversal.BST(10);
-        tree.right = new BSTTraversal.BST(12);
+        tree.right = new BSTTraversal.BST(13);
         tree.left = new BSTTraversal.BST(8);
         tree.right.right = new BSTTraversal.BST(14);
-        tree.right.left = new BSTTraversal.BST(13);
+        tree.right.left = new BSTTraversal.BST(12);
         tree.left.right = new BSTTraversal.BST(9);
         tree.left.left = new BSTTraversal.BST(7);
 
-        System.out.println((BSTTraversal.inOrderTraverse(tree, new ArrayList<>())));     // [7, 8, 9, 10, 13, 12, 14]
-        System.out.println((BSTTraversal.preOrderTraverse(tree, new ArrayList<>())));    // [10, 8, 7, 9, 12, 13, 14]
-        System.out.println((BSTTraversal.postOrderTraverse(tree, new ArrayList<>())));   // [7, 9, 8, 13, 14, 12, 10]
+        System.out.println((BSTTraversal.inOrderTraverse(tree, new ArrayList<>())));     // [7, 8, 9, 10, 12, 13, 14]
+        System.out.println((BSTTraversal.preOrderTraverse(tree, new ArrayList<>())));    // [10, 8, 7, 9, 13, 12, 14]
+        System.out.println((BSTTraversal.postOrderTraverse(tree, new ArrayList<>())));   // [7, 9, 8, 12, 14, 13, 10]
     }
     //             10
     //           /    \
