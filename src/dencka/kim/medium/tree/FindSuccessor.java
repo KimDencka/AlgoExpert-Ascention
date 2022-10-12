@@ -1,4 +1,4 @@
-package dencka.kim.medium.collection;
+package dencka.kim.medium.tree;
 
 import java.util.*;
 
