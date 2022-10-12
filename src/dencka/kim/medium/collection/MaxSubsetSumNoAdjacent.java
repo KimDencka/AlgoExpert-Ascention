@@ -1,10 +1,6 @@
 package dencka.kim.medium.collection;
 
 class MaxSubsetSumNoAdjacent {
-    public static void main(String[] args) {
-
-    }
-
     public static int maxSubsetSumNoAdjacent(int[] array) {
         if (array.length == 0) return 0;
         int res = array[0];
