@@ -1,7 +1,5 @@
 package dencka.kim.hard.linked_lists;
 
-import java.util.*;
-
 class FindLoop {
     // time: O(n), space: O(1)
     public static LinkedList findLoop(LinkedList head) {
