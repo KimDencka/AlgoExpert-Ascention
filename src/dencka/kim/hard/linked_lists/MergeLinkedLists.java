@@ -26,19 +26,19 @@ class MergeLinkedLists {
     public static LinkedList mergeLinkedLists(LinkedList headOne, LinkedList headTwo) {
         LinkedList l1 = headOne;
         LinkedList l2 = headTwo;
-        LinkedList l1prev = null;
+        LinkedList l1Prev = null;
         while (l1 != null && l2 != null) {
             if (l1.value < l2.value) {
-                l1prev = l1;
+                l1Prev = l1;
                 l1 = l1.next;
             } else {
-                if (l1prev != null) l1prev.next = l2;
-                l1prev = l2;
+                if (l1Prev != null) l1Prev.next = l2;
+                l1Prev = l2;
                 l2 = l2.next;
-                l1prev.next = l1;
+                l1Prev.next = l1;
             }
         }
-        if (l1 == null) l1prev.next = l2;
+        if (l1 == null) l1Prev.next = l2;
         return headOne.value < headTwo.value ? headOne : headTwo;
     }
 
