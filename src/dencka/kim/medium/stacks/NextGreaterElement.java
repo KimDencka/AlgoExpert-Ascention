@@ -1,8 +1,6 @@
 package dencka.kim.medium.stacks;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Stack;
+import java.util.*;
 
 class NextGreaterElement {
     public static void main(String[] args) {
