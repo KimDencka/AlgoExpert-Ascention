@@ -1,7 +1,6 @@
 package dencka.kim.hard.arrays;
 
 import java.util.*;
-import java.util.zip.CheckedInputStream;
 
 class ZigZagTravers {
     public static List<Integer> zigzagTraverse(List<List<Integer>> array) {
