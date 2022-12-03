@@ -1,7 +1,5 @@
 package dencka.kim.hard.dynamic_programming;
 
-import java.util.Arrays;
-
 class MaximumSumSubmatrix {
     public static void main(String[] args) {
         int[][] matrix = new int[][]{
@@ -17,8 +15,6 @@ class MaximumSumSubmatrix {
     public static int maximumSumSubmatrix(int[][] matrix, int size) {
         int[][] sums = createSubmatrix(matrix);
         int max = Integer.MIN_VALUE;
-        for (int[] arr : sums) System.out.println(Arrays.toString(arr));
-
         for (int r = size - 1; r < matrix.length; r++) {
             for (int c = size - 1; c < matrix[0].length; c++) {
                 int total = sums[r][c];
